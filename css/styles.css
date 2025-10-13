@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+}
+
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+*:focus {
+	outline: 2px dashed #ff7500;
+}
+
+body {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #000;
+}
+
+.container {
+	max-width: 1140px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.btn {
+	border: none;
+	cursor: pointer;
+	padding: 12px 24px;
+	background-color: #ff7500;
+	color: #fff;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	transition: opacity 0.4 ease;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn:active {
+	opacity: 0.6;
+}
+
+.site-header {
+	border-top: 5px solid #ff7500;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.site-header-container {
+	display: flex;
+	align-items: center;
+}
+
+.site-logo {
+	margin-right: auto;
+	width: 227px;
+	transition: opacity o.4s easy;
+}
+
+.site-logo:hover {
+	opacity: 0.8;
+}
+
+.site-logo:active {
+	opacity: 0.6;
+}
+
+.site-nav {
+	margin-right: 32px;
+}
+
+.site-nav-list {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav-item:not(:last-child) {
+	margin: 32px;
+}
+.site-nav-link {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 13px;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	color: #000;
+	padding-bottom: 4px;
+}
+
+.site-nav-link:hover {
+	color: #ff7500;
+}
+
+.site-nav-link:active {
+	opacity: 0.6;
+}
+
+.active {
+	border-bottom: 3px solid #ff7500;
+}
+
+/* HERO START */
+.hero {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #252420;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-info {
+  max-width: 367px;
+  width: 100%;
+  color: #fff;
+}
+
+.hero-line {
+  display: inline-block;
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+  margin-bottom: 40px;
+}
+.hero-title {
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+.hero-text {
+	letter-spacing: 0.5px;
+	margin-bottom: 32px;
+}
+
+.hero-img img{
+width: 510px;
+height: 510px;
+border-radius: 8px;
+}
